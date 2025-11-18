@@ -1,0 +1,127 @@
+body{
+    background-color: #898E8C;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-right: solid 2px #DDBCB5;
+    border-left: solid 2px #DDBCB5;
+}
+/*TEXT STYLES*/
+h1{
+    font-family: "Arial Back", Gadget, sans-serif;
+    font-size: 76px;
+    color: #DDBCB5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 26px;
+    color: #DDBCB5;
+}
+h3{
+    margin-top: 0px;
+    font-size: 26px;
+    color: #DDBCB5;
+    font-weight: bold;
+}
+p{
+    font-size: 16px;
+    color: #DDBCB5;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+/*MENU SECTION*/
+#menu{
+    width: 170px;
+    float: left;
+}
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu li{
+    background-color: #DDBCB5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+#menu a:link, #menu a:visited{
+    color: #898E8C;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu a:hover, #menu a:active{
+    color: #900;
+    text-decoration: underline;
+}
+
+/*MAIN SECTION STYLES*/
+#main{
+    margin-left: 190px;
+}
+#main h3{
+    color: #DDBCB5;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+#main p{
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#main a:link, #main a:visited{
+    color: #900;
+    font-weight: bold;
+    text-decoration: none;
+}
+#main a:hover, #main a:active{
+    color: #03C;
+    text-decoration: underline;
+}
+/*FOOTER SECTION*/
+#footer{
+    background-color: #dbdad9;
+    margin-top: 20px;
+    clear: both;
+}
+#footer{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+    color: #e7d510;
+    text-align: center;
+}
+#footer a:link, #footer a:visited{
+    color: #898E8C;
+    text-decoration: none;
+}
+#footer a:hover, #footer a:active{
+    color: #000;
+}
+/*LINK STYLES*/
+a:link, a:visited{
+    color: #898E8C;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: #900;
+    text-decoration: underline;
+}
+/*ClASS STYLES*/
+.rightfloat{
+    border: 2px solid #898E8C;
+    margin: 8px;
+    float: right;
+}
